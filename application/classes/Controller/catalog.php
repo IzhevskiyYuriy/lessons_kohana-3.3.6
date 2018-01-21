@@ -14,5 +14,6 @@ class Conroller_Catalog extends Controller_Base
         //Выводим в шаблон
         $this->template->pageTitle = 'Каталог';
         $this->template->blockCenter = array($content);
+
     }
 }
