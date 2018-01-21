@@ -146,12 +146,17 @@ Kohana::modules(array(
  * defaults for the URI.
  */
 
-Route::set('admin', 'admin/<controller>(/<action>(/<id>))')
+Route::set('widgets', 'widgets(/<controller>(/<action>(/<id>)))')
+    ->defaults(array(
+        'directory' => 'widgets',
+        'action' => 'index',
+        ));
+
+Route::set('admin', 'admin(/<controller>(/<action>(/<id>)))')
     ->defaults(array(
         'directory' => 'admin',
         'controller' => 'admin',
         ));
-
 
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(

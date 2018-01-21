@@ -38,7 +38,7 @@
 
                 <!-- Центральный блок -->
                 <?php if (isset($blockCenter)):?>
-                    <td>
+                    <td width="320">
                         <h2><?= $pageTitle?></h2>
                         <?php foreach ($blockCenter as $сBlock):?>
                                 <?= $сBlock?>
