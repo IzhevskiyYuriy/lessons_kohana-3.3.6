@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61fedf6-8a67-4563-9a68-2930e36fee91" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/catalog.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/application/classes/Model/catalog.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/application/views/v_base.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/application/classes/Controller/Index.php" afterPath="$PROJECT_DIR$/application/classes/Controller/Index.php" />
+      <change beforePath="$PROJECT_DIR$/application/classes/Controller/Welcome.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/application/views/v_catalog.php" afterPath="$PROJECT_DIR$/application/views/v_catalog.php" />
+      <change beforePath="$PROJECT_DIR$/application/views/v_index.php" afterPath="$PROJECT_DIR$/application/views/v_index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/classes/Controller/Admin/Admin.php">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/classes/Controller/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="-34">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/classes/Kohana/Controller/Template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -29,68 +47,38 @@
       <file leaf-file-name="v_catalog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/v_catalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="136">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/classes/Model/Index.php">
+      <file leaf-file-name="catalog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/classes/Controller/catalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/classes/Request.php">
+      <file leaf-file-name="v_base.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/v_base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="-170">
+              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/classes/Kohana/Controller.php">
+      <file leaf-file-name="v_index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/v_index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="118" column="14" lean-forward="false" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTTP.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/classes/Kohana/HTTP.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/classes/Controller/Welcome.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/classes/Kohana/Request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4284">
-              <caret line="252" column="44" lean-forward="false" selection-start-line="252" selection-start-column="36" selection-end-line="252" selection-end-column="44" />
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -99,18 +87,8 @@
       <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/Controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -124,6 +102,7 @@
       <find>dire</find>
       <find>redirect</find>
       <find>redi</find>
+      <find>style</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,14 +115,11 @@
         <option value="$PROJECT_DIR$/application/classes/Controller/index.php" />
         <option value="$PROJECT_DIR$/application/classes/Model/Index.php" />
         <option value="$PROJECT_DIR$/application/views/v_category.php" />
-        <option value="$PROJECT_DIR$/application/views/v_index.php" />
-        <option value="$PROJECT_DIR$/application/views/v_catalog.php" />
         <option value="$PROJECT_DIR$/application/classes/Controller/lessons/lesson3.php" />
         <option value="$PROJECT_DIR$/application/classes/Controller/lessons/Lesson3.php" />
         <option value="$PROJECT_DIR$/application/classes/Controller/lesson/Lesson3.php" />
         <option value="$PROJECT_DIR$/application/classes/Controller/professor/baxter.php" />
         <option value="$PROJECT_DIR$/system/classes/Kohana/Route.php" />
-        <option value="$PROJECT_DIR$/application/classes/Controller/Index.php" />
         <option value="$PROJECT_DIR$/application/classes/professor/baxter.php" />
         <option value="$PROJECT_DIR$/application/classes/Controller/Lesson/Lesson3.php" />
         <option value="$PROJECT_DIR$/application/classes/myclass.php" />
@@ -152,6 +128,13 @@
         <option value="$PROJECT_DIR$/application/messages/forms/contact.php" />
         <option value="$PROJECT_DIR$/application/classes/Controller/Admin/Admin.php" />
         <option value="$PROJECT_DIR$/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/application/views/v_index.php" />
+        <option value="$PROJECT_DIR$/application/views/v_catalog.php" />
+        <option value="$PROJECT_DIR$/application/classes/Model/catalog.php" />
+        <option value="$PROJECT_DIR$/application/classes/Controller/catalog.php" />
+        <option value="$PROJECT_DIR$/application/classes/Controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/classes/Controller/base.php" />
+        <option value="$PROJECT_DIR$/application/views/v_base.php" />
       </list>
     </option>
   </component>
@@ -162,11 +145,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="129" />
-    <option name="y" value="315" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="200" />
+    <option name="y" value="153" />
     <option name="width" value="1284" />
-    <option name="height" value="448" />
+    <option name="height" value="439" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,44 +196,7 @@
               <item name="kohana" type="b2602c69:ProjectViewProjectNode" />
               <item name="kohana" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kohana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kohana" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kohana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kohana" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="messages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kohana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kohana" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="messages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="forms" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kohana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kohana" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kohana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kohana" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kohana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kohana" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="messages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -301,18 +247,17 @@
       <workItem from="1516380955858" duration="7904000" />
       <workItem from="1516450235629" duration="4942000" />
       <workItem from="1516465395821" duration="9979000" />
-      <workItem from="1516538092376" duration="1916000" />
+      <workItem from="1516538092376" duration="7313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24741000" />
+    <option name="totallyTimeSpent" value="30138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="200" y="153" width="1284" height="439" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22936508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2361111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -340,61 +285,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/v_catalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/v_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/classes/Controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/UTF8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utf8/strpos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utf8/strlen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/messages/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -494,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/v_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/classes/Kohana/View.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -520,6 +408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,6 +432,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -550,6 +440,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,6 +448,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17017">
           <caret line="1019" column="0" lean-forward="false" selection-start-line="1019" selection-start-column="0" selection-end-line="1019" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,14 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/Kohana/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="14" lean-forward="false" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/classes/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -698,10 +582,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/v_catalog.php">
+    <entry file="file://$PROJECT_DIR$/system/classes/Kohana/HTML.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="3498">
+          <caret line="214" column="24" lean-forward="false" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/HTML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -709,23 +601,87 @@
     <entry file="file://$PROJECT_DIR$/application/classes/Model/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/Model/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/Controller/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/Controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="34">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="300">
           <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/Kohana/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="98" column="20" lean-forward="false" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/Kohana/Controller/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/classes/Controller/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="49" />
           <folding />
         </state>
       </provider>

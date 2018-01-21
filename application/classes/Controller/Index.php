@@ -1,23 +1,15 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Index extends Controller_Template
+class Controller_Index extends Controller_Base
 {
-    public $template = 'v_index';
-
     public function action_index()
     {
-        $this->template->title = 'Интернет-магазин';
-        $this->template->name = 'Главная страница';
-        Professor_Baxter::teach();
+        $blockCenter = View::factory('v_index');
+
+        //Вывод в шаблок
+        $this->template->pageTitle = 'Главная';
+        $this->template->blockCenter = array($blockCenter);
     }
 
-    public function action_catalog()
-    {
-
-        $this->template->title = 'Интернет-магазин';
-        $allProducts = Model::factory('Index')->allProduct();
-        $this->template->name = View::factory('v_catalog', ['allProducts' => $allProducts]);
-
-    }
 
 }
