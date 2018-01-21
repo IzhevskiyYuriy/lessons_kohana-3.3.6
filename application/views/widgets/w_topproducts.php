@@ -2,4 +2,3 @@
 <?php foreach ($products as $product):?>
    <p><?= $product?></p>
 <?php endforeach;?>
-roducts

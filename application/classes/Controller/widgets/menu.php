@@ -11,8 +11,8 @@ class Controller_Widgets_Menu extends Controller_Template
     {
         //Получаем список категорий
         $categories = Model::factory('catalog')->categories();
-        $this->template->categories = $categories;
 
+        $this->template->categories = $categories;
     }
 
 }

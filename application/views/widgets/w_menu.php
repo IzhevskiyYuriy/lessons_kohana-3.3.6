@@ -1,4 +1,4 @@
-<h2>Каталог</h2>
+<h2>Меню</h2>
 <?php foreach ($categories as $category):?>
-    <a href="catalog" class="menu_link"><?= $category?></a>
+    <p> <a href="catalog" class="menu_link"><?= $category?></a></p>
 <?php endforeach;?>

@@ -3,7 +3,7 @@
 /**
  * Виджет меню сайта
  */
-class Controller_Widgets_Topproducrs extends Controller_Template
+class Controller_Widgets_Topproducts extends Controller_Template
 {
     public $template = 'widgets/w_topproducts'; //шаблон виджета
 
