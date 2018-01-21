@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d61fedf6-8a67-4563-9a68-2930e36fee91" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/application/bootstrap.php" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
-      <change beforePath="$PROJECT_DIR$/application/classes/Controller/catalog.php" afterPath="$PROJECT_DIR$/application/classes/Controller/catalog.php" />
-      <change beforePath="$PROJECT_DIR$/application/classes/Controller/index.php" afterPath="$PROJECT_DIR$/application/classes/Controller/index.php" />
-      <change beforePath="$PROJECT_DIR$/application/classes/Controller/widgets/menu.php" afterPath="$PROJECT_DIR$/application/classes/Controller/widgets/menu.php" />
-      <change beforePath="$PROJECT_DIR$/application/classes/Controller/widgets/topproducts.php" afterPath="$PROJECT_DIR$/application/classes/Controller/widgets/topproducts.php" />
-      <change beforePath="$PROJECT_DIR$/application/classes/Model/catalog.php" afterPath="$PROJECT_DIR$/application/classes/Model/catalog.php" />
-      <change beforePath="$PROJECT_DIR$/application/views/v_base.php" afterPath="$PROJECT_DIR$/application/views/v_base.php" />
-      <change beforePath="$PROJECT_DIR$/application/views/v_catalog.php" afterPath="$PROJECT_DIR$/application/views/v_catalog.php" />
-      <change beforePath="$PROJECT_DIR$/application/views/widgets/w_menu.php" afterPath="$PROJECT_DIR$/application/views/widgets/w_menu.php" />
-      <change beforePath="$PROJECT_DIR$/application/views/widgets/w_topproducts.php" afterPath="$PROJECT_DIR$/application/views/widgets/w_topproducts.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/classes/Controller/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -56,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="v_base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="v_base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/v_base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="78">
               <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding />
             </state>
@@ -313,12 +303,12 @@
       <workItem from="1516380955858" duration="7904000" />
       <workItem from="1516450235629" duration="4942000" />
       <workItem from="1516465395821" duration="9979000" />
-      <workItem from="1516538092376" duration="15443000" />
+      <workItem from="1516538092376" duration="15656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38268000" />
+    <option name="totallyTimeSpent" value="38481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -680,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/v_base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/classes/Controller/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -748,6 +730,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding />
         </state>
       </provider>
